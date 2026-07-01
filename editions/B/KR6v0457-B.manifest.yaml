@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR6v0457/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0457/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘中宗見解
+  identifiers:
+    krp: KR6v0457
+    cbeta: B35n0196
+    cbeta_old_id: B35n0196
+    authorityid: CA0006282
+    json_key: B0196
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B35/B35n0196.xml
+    old_id: B35n0196
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0457_000-B.yaml, hash: 'sha256:b1482d43995b3c228bfada1ad0bde787b886d44125652729a3a4ef0cdb94448c'}
+  - {seq: 1, filename: KR6v0457_001-B.yaml, hash: 'sha256:571664ac03de44fbe9579d5b5d0e46eb2c6490781c34c4b812f4a59b799c10ee'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0457_000-B.markers.yaml, hash: 'sha256:bf5d6f699ad60a869bef3a3b68dfa3bc544bffe9196fee1fcbafe2ad086f8d76'}
+  - {seq: 1, role: markers, filename: assets/KR6v0457_001-B.markers.yaml, hash: 'sha256:f2f9157c7fe45c0f4966e13b30ca3bfa662c90a93cffe33084ad09d84c253913'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0457_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 3133
+  label: '燉煌本
+
+    　大乘中宗見解'
+  type: juan
+  level: 1
+hash: sha256:162b4b2af54109e719cc08dab692290151d9c40f414e46093697a0f1c6dd1273

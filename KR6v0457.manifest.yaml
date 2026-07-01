@@ -1,0 +1,41 @@
+canonical_identifier: bkk:krp/KR6v0457/v1
+canonical_location: https://kanripo.org/bkk/KR6v0457/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大乘中宗見解
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B35/B35n0196.xml
+    old_id: B35n0196
+  edition:
+    short: bkk
+editions:
+- short: 補編
+  label: 補編
+  source_xml_id: wit.orig
+- short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0457_000.yaml, hash: 'sha256:b1482d43995b3c228bfada1ad0bde787b886d44125652729a3a4ef0cdb94448c'}
+  - {seq: 1, filename: KR6v0457_001.yaml, hash: 'sha256:d6ca3def96366ec9efb5067bfe03698ccb0ef466c08ee07c27b95433d669cb52'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0457_001.markers.yaml, hash: 'sha256:9bdbe0fb297355c62282b422e6ace5da7d9a570e0cef5b1d94bf635c2ccc4c2c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0457_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 3133
+  label: '燉煌本
+
+    　大乘中宗見解'
+  type: juan
+  level: 1
+hash: sha256:dc9762fca2524db8fa6d928ab71a945c5ff5c999a6df60b98cfc514c1ff71560
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
